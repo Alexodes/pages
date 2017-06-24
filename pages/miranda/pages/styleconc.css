@@ -1,0 +1,182 @@
+@font-face {
+    font-family: 'futuramediumcregular';
+    src: url('../fonts/futuramediumc-webfont.woff2') format('woff2'), url('../fonts/futuramediumc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+header {
+    min-width: 100%;
+    height: 150px;
+    margin-bottom: 45px;
+}
+
+nav {
+    text-align: center;
+    padding-top: 50px;
+}
+
+nav ul {
+    font-size: 0;
+    margin-right: 2.3%;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 100px;
+}
+
+nav ul li:nth-child(3) {
+    padding: 0;
+    border: 0!important;
+}
+
+nav ul li:nth-child(3) a {
+    padding: 0;
+    border: 0 !important;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    padding: 5px 15px;
+    border: 1px solid #fff;
+    color: #000;
+    font-family: 'futuramediumcregular';
+    font-size: 1.55rem;
+    font-weight: normal;
+    transition: border .5s ease-out;
+}
+
+nav ul li a:hover {
+    border: 1px solid #000;
+}
+
+nav ul li a img {
+    vertical-align: middle;
+}
+
+.contact-form{
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contact-form p{
+    font-family: 'futuramediumcregular';
+    margin-bottom: 35px;
+    color: black;
+    line-height: 1.5;
+}
+
+
+.contact-form-content{
+    width:  30%;
+    margin: 0 auto;
+}
+
+.name-cont{
+    font-family: 'futuramediumcregular';
+    width: 80%;
+    font-size: 0.75rem;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+    padding: 5px 0 5px 2px;
+    border: 1px solid #000;
+}
+
+.email-cont{
+    font-family: 'futuramediumcregular';
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 2px;
+    border: 1px solid #000;
+}
+
+.subject-cont{
+    font-family: 'futuramediumcregular';
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 2px;
+    border: 1px solid #000;
+}
+
+.textarea-cont{
+    font-family: 'futuramediumcregular';
+    width: 80%;
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+    padding: 5px 0 5px 2px;
+    border: 1px solid #000;
+}
+
+.submit-cont{
+    border: 0;
+    font-family: 'futuramediumcregular';
+    font-size: 1rem;
+    background: #4c4c4c;
+    color: #fff;
+    padding: 5px 50px;
+    cursor: pointer;
+    
+}
+
+
+footer{
+    text-align: center;
+    padding: 35px 0 25px 0;
+    font-family: 'futuramediumcregular';
+    font-size: .8rem;
+    color: #c7c7c7;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

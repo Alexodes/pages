@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    overflow: hidden;
+}
+
+video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    opacity: .8;
+    z-index: 1;
+}
+
+.cont-wrapper{
+     margin: 0 auto;
+}
+
+.logo {
+    position: relative;
+    z-index: 2;
+    text-align: center; 
+    top: 50%;
+}
+
+.logo a{
+    text-decoration: none;
+    font-size: 0;
+    text-align: center;
+}
+
+.logo a img{
+    text-align: center;
+}
